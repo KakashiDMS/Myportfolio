@@ -1,0 +1,417 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.nav-p {
+  margin-left: 65px;
+}
+
+span {
+  color: yellow;
+}
+
+a {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.navbar-nav a:hover {
+  color: yellow;
+}
+
+.title {
+  border-left: 5px solid yellow;
+  margin: 40px 0 40px 70px;
+  padding-left: 10px;
+}
+
+.desc p {
+  margin: 40px 0 40px 70px;
+}
+
+.card-group {
+  border: none;
+  height: 265px;
+  gap: 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 70px 40px 70px;
+}
+
+.card {
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-group .card img {
+  height: 250px;
+  width: 98%;
+  object-fit: cover;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: ease-in-out 0.3s;
+}
+
+.card img:hover {
+  transform: scale(1.1);
+  height: 260px;
+}
+
+i {
+  color: darkred;
+}
+
+#services {
+  background-color: rgba(211, 211, 211, 0.25);
+  padding: 40px 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#services .text {
+  line-height: 120px;
+}
+
+#services .text h2 {
+  font-weight: bold;
+}
+
+.card-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 20px;
+}
+
+.card-display a {
+  text-decoration: none;
+  width: 100%;
+  transition: ease-in-out 0.3s;
+}
+
+.card-display a:hover {
+  transform: translateY(-10px);
+}
+
+.c-link {
+  width: 100%;
+  height: 220px;
+  border-top: 4px solid darkred;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 3px rgba(00, 00, 00, 0.3);
+}
+
+.c-link i {
+  font-size: 50px;
+  margin: 15px 0 20px 0;
+  text-align: center;
+}
+
+h4 {
+  color: brown;
+}
+
+.c-link p {
+  font-size: 16px;
+  color: #000;
+  max-width: 350px;
+}
+
+#realisation {
+  padding: 40px 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#realisation .text {
+  line-height: 120px;
+}
+
+#realisation .text h2 {
+  font-weight: bold;
+}
+
+.real-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+
+.real {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 0px 0px 3px rgba(00, 00, 00, 0.3);
+  overflow: hidden;
+}
+
+.real img {
+  height: 250px;
+  transition: all ease-in-out 0.3s;
+  object-fit: cover;
+}
+.real img:hover {
+  transform: scale(1.1);
+}
+
+.real h4 {
+  margin-top: 15px;
+}
+.real h4,
+.real p {
+  text-align: start;
+  margin-left: 20px;
+}
+
+#presentation {
+  background-color: rgba(211, 211, 211, 0.25);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 50px 70px;
+}
+
+#presentation h2 {
+  font-weight: bold;
+  color: brown;
+  margin-bottom: 50px;
+}
+
+#presentation button {
+  padding: 10px;
+  border: none;
+  color: #fff;
+  background: brown;
+  border-radius: 10px;
+}
+
+#presentation a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+}
+
+#presentation button:hover {
+  background: yellow;
+}
+
+.p-image-container img {
+  height: 400px;
+  width: 600px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 3px rgba(00, 00, 00, 0.5);
+  object-fit: cover;
+}
+
+#contact {
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  margin-bottom: 50px;
+}
+
+#contact h2 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.icons a {
+  text-decoration: none;
+  color: brown;
+  font-size: 16px;
+}
+
+#contact button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7px;
+  border: 1px solid brown;
+  color: brown;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+#contact button:hover {
+  background-color: brown;
+  color: #fff;
+}
+
+#contact button:hover i {
+  color: #fff;
+}
+
+.icons i {
+  font-size: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 650px;
+  border-radius: 10px;
+  padding: 20px;
+  gap: 10px;
+  box-shadow: 0px 0px 3px rgba(00, 00, 00, 0.5);
+}
+
+form input {
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: 1px solid lightgrey;
+}
+
+form input:focus {
+  outline-color: brown;
+}
+
+label {
+  font-weight: bold;
+}
+
+textarea {
+  height: 120px;
+  border-radius: 10px;
+  padding: 5px 10px;
+  resize: none;
+}
+
+form input[type="submit"] {
+  color: #fff;
+  background-color: brown;
+  border-radius: 5px;
+}
+
+form input[type="submit"]:hover {
+  background-color: yellow;
+}
+
+footer {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  background-color: rgba(00, 0, 0, 0.9);
+  color: #fff;
+}
+
+.links-footer {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  min-height: 400px;
+  padding: 70px;
+}
+
+footer h4 {
+  color: #fff;
+}
+
+footer li {
+  list-style: none;
+  line-height: 30px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  margin-left: 0;
+}
+
+footer li a:hover {
+  color: yellow;
+}
+
+footer i {
+  font-size: 30px;
+}
+
+footer i:hover {
+  color: yellow;
+}
+
+@media (max-width: 600px) {
+  .title {
+    margin: 40px 10px;
+    padding-left: 10px;
+  }
+  .desc p {
+    margin: 40px 10px;
+  }
+
+  .card-group {
+    flex-direction: column;
+    margin: 20px 10px;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  #services {
+    margin-top: 600px;
+  }
+
+  #services .text {
+    text-wrap: nowrap;
+  }
+
+  .card-display {
+    flex-direction: column;
+    width: 100%;
+    height: 700px;
+    gap: 20px;
+  }
+
+  .c-link {
+    width: 100%;
+  }
+
+  .real-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #presentation {
+    flex-direction: column;
+    padding: 0 15px;
+  }
+  #presentation img {
+    width: 540px;
+  }
+  form {
+    width: 500px;
+  }
+
+  footer,
+  .links-footer {
+    flex-direction: column;
+    align-items: start;
+  }
+}

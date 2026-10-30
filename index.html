@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe"
+      crossorigin="anonymous"
+    />
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL"
+      crossorigin="anonymous"
+    ></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+  </head>
+  <body>
+    <nav class="navbar sm:navbar-expand bg-1 fg-2 fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">My<span>Portfolio</span></a>
+        <button
+          class="btn-icon navbar-toggler"
+          type="button"
+          data-bs-toggle="drawer"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon" aria-hidden="true"></span>
+        </button>
+        <dialog
+          class="drawer drawer-end"
+          tabindex="-1"
+          id="navbarNav"
+          aria-labelledby="navbarNavLabel"
+        >
+          <div class="drawer-header">
+            <h5 class="drawer-title" id="navbarNavLabel">Menu</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="drawer"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="drawer-body ms-auto">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#accueil"
+                  >Accueil</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#realisation">Realisation</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#presentation">Presentation</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </dialog>
+      </div>
+    </nav>
+    <section id="accueil" class="desc">
+      <div class="title my-5">
+        <h1>GALERIES IMAGES</h1>
+      </div>
+      <p>Découvrez une sélection de mes créations visuelles.</p>
+    </section>
+    <section>
+      <div class="contains-inline">
+        <div class="card-group">
+          <div class="card">
+            <img src="imgs/kurama.png" class="card-img-top" alt="..." />
+          </div>
+          <div class="card">
+            <img src="imgs/female samurai.jpg" class="card-img-top" alt="..." />
+          </div>
+          <div class="card">
+            <img src="imgs/naruto.jpg" class="card-img-top" alt="..." />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="services">
+      <div class="text">
+        <h2>Mes Services</h2>
+        <p>
+          Cliquez sur une carte pour en savoir plus (s'ouvre dans un nouvel
+          onglet)
+        </p>
+      </div>
+      <div class="card-display">
+        <a href="https://unsplash.com/" target="_blank">
+          <div class="c-link">
+            <i class="ph ph-camera"></i>
+            <h4>Photographie</h4>
+            <p>Capture de moments uniques avec un oeil artistique</p>
+          </div>
+        </a>
+        <a href="https://www.behance.net/" target="_blank">
+          <div class="c-link">
+            <i class="ph ph-palette"></i>
+            <h4>Direction Artistique</h4>
+            <p>Creation d'ambiances visuelles coherentes</p>
+          </div>
+        </a>
+        <a href="https://dribbble.com/" target="_blank">
+          <div class="c-link">
+            <i class="ph ph-monitor"></i>
+            <h4>Web Design</h4>
+            <p>Conception d'interfaces elegentes et responsives.</p>
+          </div>
+        </a>
+      </div>
+    </section>
+    <section id="realisation">
+      <div class="text">
+        <h2>Mes Realisation</h2>
+        <p>Une sélection de mes projets récents.</p>
+      </div>
+      <div class="real-container">
+        <div class="real">
+          <img src="imgs/samurai modern.jpg" alt="" />
+          <h4>Exposition Art Moderne</h4>
+          <p>
+            Mise en scène et photographie pour une galerie d'art contemporain.
+          </p>
+        </div>
+        <div class="real">
+          <img src="imgs/crypto.jpg" alt="" />
+          <h4>Exposition Art Moderne</h4>
+          <p>
+            Mise en scène et photographie pour une galerie d'art contemporain.
+          </p>
+        </div>
+        <div class="real">
+          <img src="imgs/kakashi.jpg" alt="" />
+          <h4>Exposition Art Moderne</h4>
+          <p>
+            Mise en scène et photographie pour une galerie d'art contemporain.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="presentation">
+      <div class="text">
+        <h2>Presentation</h2>
+        <p>
+          Passionné par l'art visuel et la photographie, je crée des galeries
+          numériques mettant en valeur la beauté des formes et des couleurs.
+        </p>
+        <p>
+          Mon travail se concentre sur la nature, la sculpture et l'art
+          contemporain.
+        </p>
+        <a href="#contact">
+          <button>Me contacter</button>
+        </a>
+      </div>
+      <div class="p-image-container">
+        <img src="imgs/samurai white.jpg" alt="" />
+      </div>
+    </section>
+    <section id="contact">
+      <h2>Contact</h2>
+      <div class="icons">
+        <a
+          href="https://api.whatsapp.com/send/?phone=1234567890&text&type=phone_number&app_absent=0"
+          target="_blank"
+        >
+          <button><i class="ph ph-whatsapp-logo"></i> WhatsApp</button>
+        </a>
+        <a href="mailto:contact@monportfolio.com" target="_blank">
+          <button><i class="ph ph-envelope"></i> Email direct</button>
+        </a>
+        <a href="https://www.linkedin.com/" target="_blank">
+          <button><i class="ph-fill ph-linkedin-logo"></i> LinkedIn</button>
+        </a>
+      </div>
+      <form action="">
+        <label for="name">Nom</label>
+        <input type="text" id="name" placeholder="Votre nom" />
+        <label for="email">Email</label>
+        <input type="text" id="email" placeholder="Votre email" required />
+        <label for="message">Message</label>
+        <textarea id="message" placeholder="Votre message..."></textarea>
+        <input type="submit" value="Envoyer" />
+      </form>
+    </section>
+    <footer>
+      <div class="links-footer">
+        <div class="me">
+          <h4>Liens Interieurs</h4>
+          <ul>
+            <li>
+              <a href="#accueil">Accueil</a>
+            </li>
+            <li>
+              <a href="#services">Services</a>
+            </li>
+            <li>
+              <a href="#realisation">Realisation</a>
+            </li>
+            <li>
+              <a href="#presentation">Presentation</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="me">
+          <h4>Liens Exterieurs</h4>
+          <ul>
+            <li>
+              <a href="">Instagram</a>
+            </li>
+            <li>
+              <a href="">Facebook</a>
+            </li>
+            <li>
+              <a href="">Pinterest</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="me">
+          <h4>Suivez-moi</h4>
+          <div class="icon">
+            <a href="https://www.facebook.com/" target="_blank"
+              ><i class="ph-fill ph-facebook-logo"></i
+            ></a>
+            <a href="https://www.twitter.com/" target="_blank"
+              ><i class="ph-fill ph-twitter-logo"></i
+            ></a>
+            <a href="https://www.linkedin.com/" target="_blank"
+              ><i class="ph-fill ph-linkedin-logo"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
